@@ -1,0 +1,61 @@
+$color-main: #1a018a; 
+$color-title-1: #333;
+$color-background: #f0f0f0;
+$color-text: #fff;
+
+
+/* Content Center - sobre a empresa - missão*/
+#title{
+    margin-top: 80px;
+}
+
+.empresa-content{
+    display: block;
+    text-align: center;
+    padding: 5px;
+    margin-top: 50px;
+    height: 550px;
+}
+
+.about{
+    margin: 1em;
+    float: left;
+    width: 500px;
+}
+
+.about p{
+    display: flex;
+    align-items: center;
+    text-align:justify;
+}
+
+#lema{
+    position: relative;
+    top: 1em;
+}
+
+#lema h6{
+    color: $color-main;
+    font-weight: bold;
+}
+
+/* Mudando as proporções da imagem */
+#homeImage{
+    position: relative;
+    top: 55px;
+    border: 4px solid $color-main;
+    transform: rotate(45deg);
+    width: 25%;
+    height: 25%;
+}
+
+
+h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    color: $color-main;
+    font-weight: bold;
+    text-align: center;
+    margin: 3em 0em 2em 0em;
+}
+
